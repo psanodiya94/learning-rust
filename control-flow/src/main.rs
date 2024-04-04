@@ -15,4 +15,13 @@ fn main() {
     } else {
         println!("Short");
     }
+
+    // Match control flow
+    let name = "John";
+
+    match name.trim() {
+        "John" => println!("John"),
+        "Jane" => println!("Jane"),
+        _ => println!("Other"),
+    }
 }
